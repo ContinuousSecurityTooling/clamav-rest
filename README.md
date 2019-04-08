@@ -34,7 +34,7 @@ You have two options. You can use [Docker](https://www.docker.com/) and run a [D
 Or you can build the JAR. This creates a stand-alone JAR with embedded [Jetty serlet container](http://www.eclipse.org/jetty/).
 
 ```
-  mvn package
+./mvnw package
 ```
 
 Starting the REST service is quite straightforward.
